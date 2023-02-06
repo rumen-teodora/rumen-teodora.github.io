@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./RobotoCondensed-Regular.ttf");
+}
+body {
+  /* font-family: "Roboto Condensed"; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Georgia", 'serif';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* font-family: 'Roboto';
+  width: 100%;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+body{
+  background-color: #F4E2E2
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight:800;
+}
+
+h2{
+  font-size: 1.8rem;
+  font-weight:400;
+}
+
+h3{
+  font-size: 1.6rem;
+  font-weight:200;
+}
+
+h4{
+  font-size: 1.4rem;
+  font-weight:100;
+}
+
+h5{
+  font-size: 1.2rem;
+  font-weight:50;
+}
+
+h5{
+  font-size: 1rem;
+  font-weight:50;
+}
+
+section{
+  text-align: center;
+  width: 100%;
+}
+
+#rumen{
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://scontent.fsof10-1.fna.fbcdn.net/v/t1.6435-9/49790932_2256837310993805_3625634790817923072_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vgNPvfjn4M0AX__zG5H&_nc_ht=scontent.fsof10-1.fna&oh=00_AfD6YgOcoSRms4NYGwZd4wfIorBnpKEXpSFmFro4UFvvnQ&oe=6405890E") no-repeat;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+.section-dark {
+  background-color: #F4E2E2;
+  padding: 80px 40px;
+}
+
+.section-darker {
+  background-color: #EDD2D1;
+  padding: 80px 40px;
+}
+
+.btn-cta:hover {
+  color:white;
+  background-color: #bf7877;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 2px solid #bf7877;
+  width:  210px;
+  height: 65px;
+  align-items: center;
+  margin: 1rem;
+}
+
+.btn-cta {
+  background-color: #996E6D;
+  width:  210px;
+  height: 65px;
+  color: white;
+  font-size: 1.2rem;
+  border: 2px solid #996E6D;
+  border-radius: 10px;
+  align-items: center;
+  margin: 1rem;
+}
+
+footer{
+  background-color: #EDD2D1;
+}
+
+ul#timer {
+	list-style: none;
+	margin: 30px 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+ul#timer li {
+	display: inline-block;
+}
+ul#timer li span {
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 30px;
+}
+ul#timer li.separator {
+	font-size: 30px;
+	line-height: 25px;
+	vertical-align: top;
+}
+ul#timer li p {
+	color: black;
+	font-size: 16px;
+}
+
+img {
+  border-radius: 5%;
+  max-width: 80%;
+}
+
+section{
+  width: 100%;
+}

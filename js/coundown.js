@@ -11,7 +11,7 @@ function createTimerAttribute(id){
 function createSeparator(){
 	const li = document.createElement('li');
 	li.classList.add('separator');
-	li.textContent = ':'
+	// li.textContent = ':'
 	return li;
 }
 
@@ -68,6 +68,8 @@ function CountDownTimer(dt){
 			document.getElementById('hours_text').textContent = ((hours === 1) ? 'Час' : 'Часа');
 			document.getElementById('minutes_text').textContent = ((minutes === 1) ? 'Минута' : 'Минути');
 			document.getElementById('seconds_text').textContent = ((seconds === 1) ? 'Секунда' : 'Секунди');
+
+			document.querySelectorAll('.separator').forEach(e=> e.textContent = ':');
         }
 
 		// console.log(days)

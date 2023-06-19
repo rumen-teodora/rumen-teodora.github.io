@@ -12,9 +12,8 @@ class Element{
 class TextElement extends Element{
     constructor(type,text){
         super(type);
-        this.e.textContent = text;
+        this.e.append(text);
         this.e.setAttribute('data-aos','fade-up')
-        
     }
 }
 
@@ -60,6 +59,7 @@ class Div extends Element{
     constructor(content){
         super('div');
         this.e.append(content);
+        // this.e.style = 'height:100vh'
     }
 }
 

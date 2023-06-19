@@ -16,131 +16,23 @@
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
     <link rel="icon" type="image/png" href="image/favicon.png" />
+    <script type="application/javascript">
+      var loadCounter = 0;
+      var loaded = function() {
+          loadCounter += 1;
+          if (loadCounter === 2) {
+              $("iframe").attr("height", "500px");
+              $(window).scrollTo(315,0)
+          }
+      }
+  </script>
   </head>
 
   <body>
-    <section class="section-darker">
-      <div class="container" data-aos="fade-up">
-        <h1 >Покана за сватба</h1>
-        <h2>Румен и Теодора</h3>
-        <h3>Събота, 7 Октомври 2023г.</h3>
-        </div>
-
-                <div style="height: 70px;">
-                  <ul id="timer" >
-                    <li><span id="days"></span><p id="days_text"></p></li>
-                    <li class="separator" id="seperator_1"></li>
-                    <li><span id="hours"></span><p id="hours_text"></p></li>
-                    <li class="separator" id="seperator_2"></li>
-                    <li><span id="minutes"></span><p id="minutes_text"></p></li>
-                    <li class="separator" id="seperator_3"></li>
-                    <li><span id="seconds"></span><p id="seconds_text"></p></li>
-                  </ul>
-                  <div class="spasi"></div>
-                </div>
-
-              
-      <img src="./img/main_picture.jpg" height="80%" data-aos="feed-up">
-    </section>
-
-    <section class="section-dark">
-      <div class="containter" data-aos="fade-up">
-        <p>
-          Имаме удоволствието да Ви поканим да бъдете част от нашия специален ден. 
-          <br>
-          <br>
-          Денят, в който окрилени от любовта ще си кажем един на друг ВЕЧНО „ДА“!
-          <br>
-          <br>
-          ДА на копнежа един към друг, грижовносттa и мечтата да бъдем заедно дори и в безкрайността.
-          <br>
-          <br>
-          Семейство прекрасно бленуваме да изградим, но първо любовта си с ВАС, нашите близки и приятели искаме да споделим.
-          <br>
-          <br>
-          Заповядайте и радостта ни споделете, с широки усмивки се заредете, като присъствието си възможно най-скоро заявете.
-        </p>
-
-      </div>
-
-   
-      </section>
-      </section>
-      <section class="section-darker has-text-centered">
-        <div class="container" data-aos="fade-up">
-            <h1>Граждански брак</h1>
-            <h2>12:00 - 13:00</h2>
-            <h3>Община Елин Пелин</h3>
-
-            <h4>пл. Независимост 1, гр. Елин Пелин</h4>
-            <img src="./img/marrage.png" max>
-            <h5></h5>
-            <a href="https://goo.gl/maps/eTo24rZC3jUndqyB8" class="button btn-cta" data-aos="zoom-in" target="_blank" >
-              <i class="far fa-directions"></i>
-              &nbsp;&nbsp;Google Maps
-            </a>
-            <a class="button btn-cta" target="_blank" data-aos="zoom-in" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWhnZnFmbTRsMzh0Y204aXA5bXBzYXEybTcgcnVtZW5yYXNoZXZAbQ&amp;tmsrc=rumenrashev%40gmail.com">
-              Google Calendar
-              <i class="far fa-directions"></i>
-            </a>
-            </div>
-      </section>
-      
-        <section class="section-dark has-text-centered">
-          <div class="container" data-aos="fade-up">
-            <h1>Църковен брак</h1>
-            <h2>14:00 - 15:00</h2>
-            <h3>Храм Свети Николай Чудотворец</h2>
-            <h4>пл. Независимост, гр.Елин Пелин</h4>
-              <img src="./img/church.png">
-            <h5></h5>
-           
-              <a href="https://goo.gl/maps/UdCAdamevfk9RWWr6" class="button btn-cta" data-aos="zoom-in" target="_blank">
-                <i class="far fa-directions"></i>
-                &nbsp;&nbsp;Google Maps
-              </a>
-              <a class="button btn-cta" target="_blank" data-aos="zoom-in" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWhnZnFmbTRsMzh0Y204aXA5bXBzYXEybTcgcnVtZW5yYXNoZXZAbQ&amp;tmsrc=rumenrashev%40gmail.com">
-                Google Calendar
-                <i class="far fa-directions"></i>
-              </a>
-          </div>
-
-
-    </section>
-        <section class="section-darker has-text-centered">
-          <div class="container" data-aos="fade-up">
-              <h1>Сватбено тържество</h1>
-              <h2>18:00 - 23:00</h2>
-              <h3>Резиденция Тера</h2>
-              <h4>ул. Академик Андрей Сахаров 56, Младост 1, София</h2>
-                <img src="./img/bf3e92c9-2a7f-4728-8ab3-e442d6d6ab25_orig.jpeg">
-                <h5></h5>
-              <a href="https://goo.gl/maps/UdCAdamevfk9RWWr6" class="button btn-cta" data-aos="zoom-in" target="_blank">
-                <i class="far fa-directions"></i>
-                &nbsp;&nbsp;Google Maps
-              </a>
-              <a class="button btn-cta" target="_blank" data-aos="zoom-in"  href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWhnZnFmbTRsMzh0Y204aXA5bXBzYXEybTcgcnVtZW5yYXNoZXZAbQ&amp;tmsrc=rumenrashev%40gmail.com">
-                Google Calendar
-                <i class="far fa-directions"></i>
-              </a>
-              </div>
-        </section>
-      <section class="section-dark">
-        <h1>Сватбена анкета</h1>
-        <h5>Моля, попълнете анкета, за да ни помогнете с организация</h5>
-        <h5>Достатъчно е един член на семейство/ двойка да попълни анкетата</h5>
-        <h5>Нужна е регистрация в Google</h5>
-        <a class="button btn-cta" target="_blank" data-aos="zoom-in"  href="https://forms.gle/QXbCbgccHxuQwufb9">
-          Анкета
-          <i class="far fa-directions"></i>
-        </a>      </section>
-      <footer class="has-text-centered">
-        <p>Румен и Теодора © 2023 <br></p>
-        <p>All rights reserved.</p>
-      </footer>
-
-
       <script src="js/coundown.js"></script>
+      <script src="js/elements.js"></script>
+      <script src="js/constants.js"></script>
+      <script src="js/script.js"></script>
     <script>
       AOS.init({
         easing: "ease-out",

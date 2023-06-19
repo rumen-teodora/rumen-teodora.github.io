@@ -2,28 +2,14 @@
   font-family: "MyFont";
   src: url("./RobotoCondensed-Regular.ttf");
 }
-body {
-  /* font-family: "Roboto Condensed"; */
-  /* font-family: 'Roboto', sans-serif; */
+html,body {
   font-family: "Georgia", 'serif';
+  height: 100vh;
 }
 
 * {
   box-sizing: border-box;
 }
-
-html {
-  /* font-family: 'Roboto';
-  width: 100%;
-  min-height: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
-}
-
-body{
-  background-color: #F4E2E2
-}
-
 
 h1,h2,h3,h4,h5,h6{
   text-align: center;
@@ -51,63 +37,19 @@ h4{
   font-weight:100;
 }
 
-h5{
-  font-size: 1.2rem;
-  font-weight:50;
-}
-
-h5{
-  font-size: 1rem;
-  font-weight:50;
-}
-
 section{
   text-align: center;
   width: 100%;
-}
-
-#rumen{
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://scontent.fsof10-1.fna.fbcdn.net/v/t1.6435-9/49790932_2256837310993805_3625634790817923072_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vgNPvfjn4M0AX__zG5H&_nc_ht=scontent.fsof10-1.fna&oh=00_AfD6YgOcoSRms4NYGwZd4wfIorBnpKEXpSFmFro4UFvvnQ&oe=6405890E") no-repeat;
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position:center;
-  font-family: 'Raleway', sans-serif;
+  padding: 80px 40px;
 }
 
 
-
-.section-dark {
+.dark {
   background-color: #F4E2E2;
-  padding: 80px 40px;
 }
 
-.section-darker {
-  background-color: #EDD2D1;
-  padding: 80px 40px;
-}
-
-.btn-cta:hover {
-  color:white;
-  background-color: #bf7877;
-  font-size: 1.2rem;
-  border-radius: 10px;
-  border: 2px solid #bf7877;
-  width:  210px;
-  height: 65px;
-  align-items: center;
-  margin: 1rem;
-}
-
-.btn-cta {
-  background-color: #996E6D;
-  width:  210px;
-  height: 65px;
-  color: white;
-  font-size: 1.2rem;
-  border: 2px solid #996E6D;
-  border-radius: 10px;
-  align-items: center;
-  margin: 1rem;
+.darker {
+  background-color: #EDD2D1; 
 }
 
 footer{
@@ -120,7 +62,6 @@ ul#timer {
 	padding: 0;
 	display: block;
 	text-align: center;
-	font-family: 'Lato', sans-serif;
 }
 ul#timer li {
 	display: inline-block;
@@ -136,7 +77,6 @@ ul#timer li.separator {
 	vertical-align: top;
 }
 ul#timer li p {
-	color: black;
 	font-size: 16px;
 }
 
@@ -147,4 +87,29 @@ img {
 
 section{
   width: 100%;
+}
+
+iframe{
+  width:500px;
+  max-width: 100%;
+}
+
+p{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+div{
+  text-align: center;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }

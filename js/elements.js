@@ -59,7 +59,6 @@ class Div extends Element{
     constructor(content){
         super('div');
         this.e.append(content);
-        // this.e.style = 'height:100vh'
     }
 }
 
@@ -67,5 +66,19 @@ class Image extends Element{
     constructor(src){
         super('img')
         this.e.src = src;
+    }
+}
+
+class Link extends Element{
+    constructor(src){
+        super('btn')
+        this.e.src = src;
+    }
+}
+
+class Button extends TextElement{
+    constructor(text){
+        super('a',text)
+        this.e.href = 'https://forms.gle/C7ExhsdxqCEfhtdQ9';
     }
 }

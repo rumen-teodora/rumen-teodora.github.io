@@ -1,7 +1,7 @@
 const CONSTANTS = [
     [
         new H1('Покана за сватба'),
-        new H2('Румен и Теодора'),
+        new H2('Теодора и Румен'),
         new H3('Събота, 7 Октомври 2023г.'),
         new Image("./img/main_picture.jpg")
     ],
@@ -34,8 +34,9 @@ const CONSTANTS = [
         new Iframe('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.444795211688!2d23.365000375001994!3d42.65192881661388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa869b6fa025c5%3A0xf208ee42b152e139!2z0KDQtdC30LjQtNC10L3RhtC40Y8g0KLQtdGA0LA!5e0!3m2!1sbg!2sbg!4v1687007893729!5m2!1sbg!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>')
     ],
     [
-        new Iframe('<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf4X3SxWiI1fOf-RupoRId2ub04TggHepgCzA_5-YH4kH2csw/viewform?embedded=true" width="640" height="1200px" frameborder="0" marginheight="0" marginwidth="0">Зарежда се…</iframe>')
-
+        new H1("Сватбена анкета"),
+        new H3("Моля попълнете до 25 Септември 2023г."),
+        new Button("Линк към анкетата")
     ],
     [
         new Div('Румен и Теодора © 2023'),

@@ -3,12 +3,11 @@
   font-family: 'Noto Serif Display', serif;
   font-size: 2vh;
   width: 100%;
-  font-weight: 250;
+  font-weight: 300;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  font-weight: 5000;
 }
 
 
@@ -31,7 +30,11 @@ h4 {
 }
 
 
-
+h1,h2,h3,h4,h5,h6,.text{
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 .container {
   display: table;
@@ -49,9 +52,6 @@ h4 {
 }
 
 .text{
-  margin-left: 15%;
-  margin-right: 15%;
-  max-width: 70%;
   overflow-x: hidden;
   padding: 10px;
   text-align: left;
@@ -74,7 +74,6 @@ h4 {
   text-transform: uppercase;
   background-color: #E1DFE4	;
   width: auto;
-
 }
 
 .hidden{

@@ -41,15 +41,11 @@ h4 {
   width: 80%;
 }
 
-body{
-  height: 100vh;
-}
-
 .content {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  height: 100vh;
+  height: 90vh;
 }
 
 .text{

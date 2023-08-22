@@ -41,11 +41,15 @@ h4 {
   width: 80%;
 }
 
+body{
+  height: 100vh;
+}
+
 .content {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .text{
@@ -56,6 +60,7 @@ h4 {
   padding: 10px;
   text-align: left;
   font-size: 2.5vh;
+
 }
 
 
@@ -103,8 +108,23 @@ body {
   }
 	}
 
-  .underlined{
+  @media only screen and (max-width: 920px) and (orientation:landscape) {
+        .text{
+          font-size: 1.5vw;
+        }
 
-  }
-
+        h1{
+          text-transform: uppercase;
+          font-size: 4vw;
+        }
+        
+        h2 {
+          font-size: 3vw;
+        }
+        
+        h3 {
+          font-size: 2vw;
+        }
+        
+    }
 
